@@ -4,7 +4,10 @@
 def print_greetings(students):
     for student in students:
         print(f"Hi {student}")
+    print(f"Total number of students: {len(students)}")
 
 # call the function
 students = ["Jon", "Kim", "Lee"]
+students.append("Sara")
+students.append("Miko")
 print_greetings(students)
